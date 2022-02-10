@@ -1,0 +1,69 @@
+
+<!DOCTYPE html> 
+
+<html>
+    <head>
+<meta charset="utf-8">
+
+  <title>Pet </title>
+  </head> 
+
+  <body>
+<div> 
+    <form method = "post" action = "#">
+    
+        
+        <p> <lable> Pet Name:  <br<>
+            <input name ="PName" type = "text" size = "25" required>  </lable>
+        </p>
+
+        <p> <lable> Date Of Birth:  <br<>
+            <input name ="Date" type = "date" size = "25" required>  </lable>
+        </p> 
+        
+        
+        <P>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" value="Male" required>
+            <label for="male">male</label>
+            <input type="radio" name="gender" value="Female" required>
+            <label for="female">female</label><br>
+        </P>
+
+            <p> <lable> Pet Breed:  <br<>
+                <input name ="PBreed" type = "text" size = "25" required>  </lable>
+            </p>
+    
+        
+        <p> <lable> photo of your pet :  
+            <input type="file"  name="filename" required >
+        <p>
+
+            <P>
+                <label for="Neutered Status">Neutered Status :</label><br>
+                <input type="radio" name="NStatus" value="Spayed" required>
+                <label for="Spayed">Spayed</label>
+                <input type="radio" name="NStatus" value="UnSpayed" required>
+                <label for="UnSpayed">UnSpayed</label><br>
+            </P>
+
+            <P>
+                <label> vaccinations list : <br>
+                    <textarea name="Vlist" rows="5" cols="20" ></textarea>
+                </label>
+            </P>
+
+            <P>
+                <label> Medical History  : <br>
+                    <textarea name="MHistory" rows="4" cols="30" ></textarea>
+                </label>
+            </P>
+            <input type = "submit" value="Submit">
+        </p>
+          
+        </form>
+</div> 
+
+  </body>
+
+</html>

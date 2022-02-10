@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
-
+<!-- NOOOOOOOOOO-->
 <title>Homepage</title>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 body {font-family: "Times New Roman", Georgia, Serif;}
 h1, h2, h3, h4, h5, h6 {
@@ -14,22 +17,42 @@ h1, h2, h3, h4, h5, h6 {
 <body>
 
 <div class="top">
+
   <div class="bar" style="letter-spacing:3px;">
-    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
+
+    <a href="#home" class="w3-bar-item w3-button">Pet Care</a>
+
     <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small" >
+    <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#Appointments" class="w3-bar-item w3-button" >Appointments</a>
+
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-bar-item w3-button" title="Appointments ">Appointments<i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="Appointment-1 (1).html" class="w3-bar-item w3-button">Book Appointment </a>
+          <a href="MyAppointments.html" class="w3-bar-item w3-button">View my Appointments</a>
+        </div>
+      </div>
+
+
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-bar-item w3-button" title="My pets">My pets <i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="addPet.html" class="w3-bar-item w3-button">Add pets</a>
+          <a href="DR-viewPet.html" class="w3-bar-item w3-button">View my pets</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
 
-<!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <img class="w3-image" src="United-Pet-Care-Members-2-scaled.jpg" alt="Hamburger Catering" width="1600" height="800">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Le Catering</h1>
+    <h1 class="w3-xxlarge">I Love Raghad</h1>
   </div>
 </header>
 
@@ -81,19 +104,9 @@ h1, h2, h3, h4, h5, h6 {
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-64" id="contact">
-
-
-
-    <div> 
-      <br> <label> <p> Contact Us: </p>
-          <p><a href="mailto:PetCare@gmail.com"> Email </a> </p> 
-          <p><a href="tel:+096745778">Phone Number</a></p>
-</label>
-</div>
     <h1>Contact</h1><br>
     <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
     <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
-
     <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<title> Signin </title>
+</head>
+
+<body> 
+
+    <div class="Owner">
+
+        <div id="signup" >
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account:</p>
+        
+        <form method = "post" action = "#">
+        <p> <lable> Email:  <br<>
+            <input name ="Email" type = "email" size = "25" required>  </lable>
+        </p>
+        
+        <p> <lable> First Name:  <br<>
+            <input name ="FName" type = "text" size = "25" required>  </lable>
+        </p>
+        
+        <p> <lable> Last Name:  <br<>
+            <input name ="LName" type = "text" size = "25" required>  </lable>
+        </p>
+        
+        <p> <lable> Password:  <br<>
+            <input name ="Password" type = "password" size = "25" required>  </lable>
+        </p>
+        
+        <p> <lable> Phone Number:  <br<>
+            <input name ="Phone Number " type = "text" size = "25" required>  </lable>
+        </p>
+        
+        <P>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" value="Male" required>
+            <label for="male">male</label>
+            <input type="radio" name="gender" value="Female" required>
+            <label for="female">female</label><br><br>
+
+        </P>
+        
+        <p> <lable> Profile photo:  <br<>
+            <input type="file" id="myFile" name="filename">
+        <p>
+            <input type = "submit" value="Submit">
+        </p>
+        </form>
+        </div>
+
+
+        <div id="SignIn">
+            <h1>Sign in</h1>
+            <p>Please fill in this form to sign in:</p>
+        
+        <form method = "post" action = "#">
+        <p> <lable> Email:  <br<>
+            <input name ="Email" type = "email" size = "25" required>  </lable>
+        </p>
+        
+        <p> <lable> Password:  <br<>
+            <input name ="Password" type = "password" size = "25" required>  </lable>
+        </p>
+        <p> 
+            <a href = "#Forget" > Forget your password? </a>
+            </p>
+            
+        <p>
+            <input type = "submit" value="Submit">
+        </p>
+        
+        
+        <p> 
+        <a href = "#signup" > Don't have an account? Create an account </a>
+        </p>                
+        </form>
+         </div>
+
+         <div id = "Forget" > 
+
+            <h1> Forget password </h1>
+    <p>Submit your email address and we will send you a code to reset your password:</p>
+
+<form method = "post" action = "#">
+
+    <p> <lable> Email:  <br<>
+        <input name ="Email" type = "email" size = "25" required>  </lable>
+    </p>
+
+    <p>
+        <a href="CodePage.html">  
+        <input type = "submit" value="Submit">
+    </a>
+
+    </p>
+
+</form>
+         </div>
+
+        </div>
+
+
+    </body>
+
+
+    </html>
